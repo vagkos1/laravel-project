@@ -21,3 +21,4 @@ Route::get('some-feature', function() {
     return 'We hope you enjoy our new feature, some-feature!';
 });
 
+Route::resource('reports', 'ReportsController');

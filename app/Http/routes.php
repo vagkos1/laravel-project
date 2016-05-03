@@ -14,4 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('about', 'WelcomeController@about');
+
+Route::get('some-feature', function() {
+    return 'We hope you enjoy our new feature, some-feature!';
+});
+
